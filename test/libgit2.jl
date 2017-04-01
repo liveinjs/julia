@@ -730,6 +730,8 @@ mktempdir() do dir
                 for i in eachindex(oids)
                     @test cache_oids[i] == test_oids[i]
                 end
+                walker = LibGit2.GitRevWalker(repo)
+                @test count((oid,repo)->(oid == commit_oid1), walker, oid=commit_oid1, by=LibGit2.Consts.SORT_TIME) == 1
             finally
                 close(repo)
                 close(cache)
