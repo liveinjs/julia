@@ -12,12 +12,18 @@ Windows: [![Build status](https://ci.appveyor.com/api/projects/status/dvial98s5v
 Code Coverage: [![Coverage Status](https://coveralls.io/repos/JuliaLang/julia/badge.svg?branch=master)](https://coveralls.io/r/JuliaLang/julia?branch=master) [![codecov.io](http://codecov.io/github/JuliaLang/julia/coverage.svg?branch=master)](http://codecov.io/github/JuliaLang/julia?branch=master)
 
 ## The Julia Language
+## Juia语言
 
 Julia is a high-level, high-performance dynamic language for technical computing.
-The main homepage for Julia can be found at [julialang.org](http://julialang.org/).
-This is the GitHub repository of Julia source code, including instructions for compiling and installing Julia, below.
+Julia 是用于科学计算的高级，高性能动态语言。
 
-## Resources
+The main homepage for Julia can be found at [julialang.org](http://julialang.org/).
+Julia 官方网站 [julialang.org](http://julialang.org/).
+
+This is the GitHub repository of Julia source code, including instructions for compiling and installing Julia, below.
+以下包含Julia的编译以及安装的介绍说明。
+
+## Resources 资源
 
 - **Homepage:** <http://julialang.org>
 - **Binaries:** <http://julialang.org/downloads/>
